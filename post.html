@@ -18,9 +18,9 @@
                 class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About ME</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About ME</a></li>
                     <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" href="post.html">Blog Post</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="post.html">Blog Post</a></li>
                 </ul>
         </div>
         </div>
@@ -31,8 +31,8 @@
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
                     <div class="post-heading">
-                        <h1>Man must explore, and this is exploration at its greatest</h1>
-                        <h2 class="subheading">Problems look mighty small from 150 miles up</h2><span class="meta">Posted by&nbsp;<a href="#">Start Bootstrap</a>&nbsp;on August 24, 2018</span></div>
+                        <h1>Overview of Linked List</h1>
+                        <h2 class="subheading"></h2><span class="meta">Posted by&nbsp;<a href="#">Kerin Pithawala</a>&nbsp;on September 15, 2020</span></div>
                 </div>
             </div>
         </div>
@@ -41,13 +41,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
-                    <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center
-                        because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-                    <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-                    <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-                    <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-                    <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those
-                        which divide us.</p>
+                    <p>Linked list as the name suggests is a list of elements grouped linearly.<br></p>
+                    <p>A unit element in a linked list consists of the following components:Data and Address of neighbour element. We refer to this unit element as a node. Therefore, a linked list is a set of nodes. The last node in the linked list points
+                        to null, indicating that the linked list has ended.<br>Depending upon the number of nodes that are accessed directly, linked lists are further classified into:<br><strong><span style="text-decoration: underline;">Singly Linked List</span></strong>Here,
+                        the primary node contains the address of the next node.&nbsp;Imagine playing a game of treasure hunt. You know the first clue, which contains information to direct you to the second clue and so forth.<br><strong><span style="text-decoration: underline;">Doubly Linked List</span></strong><br>Here,
+                        the primary node contains the address of the previous as well as the next node.Imagine travelling in a metro train. You know the first stop. The trains traverse back and forth according to its route.<br><br><br></p>
+                    <p><br><strong>Advantages of the Linked list:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>1.
+                        Easy to insert or delete an element.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. The size of the linked
+                        list is not fixed.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3. The dynamic nature of linked list disables wastage of
+                        memory space.<br><br></p>
+                    <p><br><strong>Disadvantages of the Linked list:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>1.
+                        Searching and sorting are costly because we cannot access elements randomly.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. Consumes more memory than an&nbsp;<a href="https://bitsnbytes10.blogspot.com/2020/06/overview-of-one-dimensional-array.html">array</a>&nbsp;to
+                        store node.<br><br></p>
+                    <p><br><strong>Application of linked list:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>1.
+                        Implement&nbsp;<a href="https://bitsnbytes10.blogspot.com/2020/08/overview-of-stack.html">stack</a>,&nbsp;<a href="https://bitsnbytes10.blogspot.com/2020/08/overview-of-queue.html">queue</a>, hash table and graph data structure.
+                        2. Storing polynomial numbers.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        3. Operating System uses a linked list when multiple applications are running. These applications are stored in nodes.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4. Programs to play
+                        music, view images, go to next web-page.<br><br></p>
                     <h2 class="section-heading">Heading</h2>
                     <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
                     <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
